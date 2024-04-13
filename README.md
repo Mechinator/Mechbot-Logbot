@@ -19,7 +19,7 @@ Mechbot-Lobot is a Discord bot designed to manage and monitor chat interactions 
   ```bash
   sudo pacman -S nodejs npm
 
-- Clone the Mechbot-Lobot repository to your local machine using git. If git is not installed, first install it using pacman:
+- Clone the Mechbot-Logbot repository to your local machine using git. If git is not installed, first install it using pacman:
   ```bash
   sudo pacman -S git
 
