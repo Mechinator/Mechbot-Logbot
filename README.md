@@ -50,7 +50,7 @@ Mechbot-Logbot is a Discord bot designed to manage and monitor chat interactions
 - Start the bot using PM2 to ensure it runs in the background:
 
   ```bash
-  pm2 start logbot.js --name "Mechbot-Logbot"
+  pm2 start logbot1.js --name "Mechbot-Logbot"
 
 - To automate the startup of PM2 and your bot on system reboot:
   ```bash
