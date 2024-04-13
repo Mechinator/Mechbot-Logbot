@@ -68,7 +68,14 @@ Purpose: Assigns a predefined tag to a specific SteamID32 to categorize users ba
     ```bash
    !mark 1234567890 Cheater
    ```
-    Note: Tags must be one of the predefined options in the bot's configuration.
+    Note: Tags must be one of the predefined options in the bot's configuration. (More can be added by the user)
+
+#### 2. `!unmark [SteamID32] [tag]`
+**Purpose**: Removes a previously assigned tag from a SteamID32.
+```markdown
+**Usage**:
+```bash
+!unmark [SteamID32] [tag]
 
 
 ## To-Dos
