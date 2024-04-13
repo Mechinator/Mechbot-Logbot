@@ -94,9 +94,9 @@ Purpose: Toggles the mute status of a SteamID32, preventing or allowing their me
 5. !notif [SteamID32] (CAN BE USED BY ANYONE) <br>
 Purpose: Subscribes the user to notifications for messages from a specified SteamID32. <br>
 **Usage**:
-  ```bash
-  !notif [SteamID32]
-  ```
+   ```bash
+   !notif [SteamID32]
+   ```
    
 ## To-Dos
 - Move Discord UserID permissions into a .json file.
