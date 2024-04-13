@@ -27,16 +27,14 @@ Mechbot-Lobot is a Discord bot designed to manage and monitor chat interactions 
   ```
   git clone https://github.com/yourusername/Mechbot-Lobot.git
   cd Mechbot-Lobot
-
 - Install the necessary Node.js dependencies specified in the package.json file:
   ```bash
   npm install
 
 - Create a private.json file in the root directory to store sensitive configuration details such as your Discord bot token:
-  ```bash
-{
-  "token": "YOUR_BOT_TOKEN_HERE"
-}
+```{```
+  ```"token": "YOUR_BOT_TOKEN_HERE"```
+```}```
 - (OPTIONAL) PM2 is a process manager for Node.js applications and can be used to easily manage your bot's lifecycle. Install PM2 via npm:
 
   ```bash
