@@ -56,6 +56,13 @@ Mechbot-Lobot is a Discord bot designed to manage and monitor chat interactions 
   ```bash
   pm2 startup
   pm2 save
+  
+## Usage Documentation for Mechbot-Lobot Commands
+1. !mark [SteamID32] [tag]
+Purpose: Assigns a predefined tag to a specific SteamID32 to categorize users based on behavior or characteristics.
+**Usage**:
+   ```bash
+   !mark [SteamID32] [tag]
 
 ## To-Dos
 - Move Discord UserID permissions into a .json file.
