@@ -119,3 +119,6 @@ By providing detailed usage instructions for each command, users can interact wi
 - Bug Fixes: Regularly update the bot to fix bugs and improve functionality.
 - Feature Expansion: Continuously add new features based on community feedback.
 - Store Usernames: Implement functionality to fetch and store actual usernames from Steam for display purposes.
+
+## User Issues
+- If you type the command in a channel and the bot dose not respond you probably didn't set up guild permissions properly, try to dm the bot with the commands.
