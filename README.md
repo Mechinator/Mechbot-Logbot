@@ -58,6 +58,7 @@ Mechbot-Lobot is a Discord bot designed to manage and monitor chat interactions 
   pm2 save
 
 ## To-Dos
+- Move Discord UserID permissions into a .json file.
 - Optimize Performance: Enhance the efficiency and responsiveness of the bot.
 - Code Cleanup: Identify and remove obsolete or redundant code segments.
 - Bug Fixes: Regularly update the bot to fix bugs and improve functionality.
