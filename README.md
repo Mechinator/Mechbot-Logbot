@@ -11,7 +11,7 @@ Mechbot-Lobot is a Discord bot designed to manage and monitor chat interactions 
 - **Notification System**: Allows users to subscribe to notifications for messages from specific SteamIDs.
 - **Persistent Storage**: Utilizes JSON files to persistently store user data, tags, mute status, and more.
 
-## Installation and Usage on Arch Linux
+## Installation on Arch Linux
 
 ### Prerequisites
 
