@@ -37,7 +37,7 @@ Mechbot-Lobot is a Discord bot designed to manage and monitor chat interactions 
     "token": "YOUR_BOT_TOKEN_HERE"
   }
   ```
-- (OPTIONAL) PM2 is a process manager for Node.js applications and can be used to easily manage your bot's lifecycle. Install PM2 via npm:
+- PM2 is a process manager for Node.js applications and can be used to easily manage your bot's lifecycle. Install PM2 via npm:
 
   ```bash
   sudo npm install pm2 -g
