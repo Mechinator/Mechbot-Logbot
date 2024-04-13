@@ -83,6 +83,14 @@ Purpose: Assigns a custom nickname to a SteamID32, which will be used in place o
     ```bash
     !nick [SteamID32] [nickname]
     ```
+
+4. !mute [SteamID32] <br>
+Purpose: Toggles the mute status of a SteamID32, preventing or allowing their messages from being processed by the bot.
+ <br>
+ **Usage**:
+   ```bash
+   !mute [SteamID32]
+   ```
 ## To-Dos
 - Move Discord UserID permissions into a .json file.
 - Optimize Performance: Enhance the efficiency and responsiveness of the bot.
