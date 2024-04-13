@@ -37,6 +37,11 @@ Mechbot-Lobot is a Discord bot designed to manage and monitor chat interactions 
     "token": "YOUR_BOT_TOKEN_HERE"
   }
   ```
+- Open logbot1.js and go to line 18/19 and add your Discord UserID so you have accses to commands
+  ```javascript
+  const allowedUserIDsForMute = ["DiscordID1", "DiscordID2"]; // Add your allowed Discord user IDs here to mute players
+  const allowedMARKUserIDs = ["DiscordID1", "DiscordID2"]; // Add your allowed Discord user IDs here to mark/nick players
+  ```
 - PM2 is a process manager for Node.js applications and can be used to easily manage your bot's lifecycle. Install PM2 via npm:
 
   ```bash
