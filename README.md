@@ -25,7 +25,7 @@ Mechbot-Lobot is a Discord bot designed to manage and monitor chat interactions 
 
 - Then clone the repository:
   ```
-  git clone https://github.com/yourusername/Mechbot-Lobot.git
+  git clone https://github.com/Mechinator/Mechbot-Lobot.git
   cd Mechbot-Logbot
 - Install the necessary Node.js dependencies specified in the package.json file:
   ```bash
