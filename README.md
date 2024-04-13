@@ -93,7 +93,8 @@ Purpose: Subscribes the user to notifications for messages from a specified Stea
    ```bash
    !notif [SteamID32]
    ```
-   
+   Note: This command can be used by all discord users.
+
 ## To-Dos
 - Move Discord UserID permissions into a .json file.
 - Optimize Performance: Enhance the efficiency and responsiveness of the bot.
