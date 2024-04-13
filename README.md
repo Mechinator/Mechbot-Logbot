@@ -63,7 +63,8 @@ Purpose: Assigns a predefined tag to a specific SteamID32 to categorize users ba
 **Usage**:
    ```bash
    !mark [SteamID32] [tag]
-  **Example**:
+   ```
+    **Example**:
   ```bash
      !mark 1234567890 Cheater
    ```
