@@ -58,7 +58,7 @@ Mechbot-Lobot is a Discord bot designed to manage and monitor chat interactions 
   pm2 save
   
 ## Usage Documentation for Mechbot-Lobot Commands
-1. !mark [SteamID32] [tag]
+1. !mark [SteamID32] [tag] <br>
 Purpose: Assigns a predefined tag to a specific SteamID32 to categorize users based on behavior or characteristics.
 **Usage**:
    ```bash
@@ -70,14 +70,14 @@ Purpose: Assigns a predefined tag to a specific SteamID32 to categorize users ba
    ```
     Note: Tags must be one of the predefined options in the bot's configuration. (More can be added by the user)
 
-2. !unmark [SteamID32] [tag]
+2. !unmark [SteamID32] [tag] <br>
 Purpose: Removes a previously assigned tag from a SteamID32. <br>
  **Usage**:
     ```bash
     !unmark [SteamID32] [tag]
     ```
 
-3. !nick [SteamID32] [nickname]
+3. !nick [SteamID32] [nickname] <br>
 Purpose: Assigns a custom nickname to a SteamID32, which will be used in place of their original username in bot communications. <br>
 **Usage**:
     ```bash
