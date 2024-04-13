@@ -18,41 +18,40 @@ Mechbot-Lobot is a Discord bot designed to manage and monitor chat interactions 
 - You should have Node.js and npm installed. If not, they can be installed from the Arch repository using pacman:
   ```bash
   sudo pacman -S nodejs npm
-```
+
 - Clone the Mechbot-Lobot repository to your local machine using git. If git is not installed, first install it using pacman:
   ```bash
   sudo pacman -S git
-```
+
 - Then clone the repository:
   ```
   git clone https://github.com/yourusername/Mechbot-Lobot.git
   cd Mechbot-Lobot
-```
+
 - Install the necessary Node.js dependencies specified in the package.json file:
   ```bash
   npm install
-```
+
 - Create a private.json file in the root directory to store sensitive configuration details such as your Discord bot token:
   ```bash
 {
   "token": "YOUR_BOT_TOKEN_HERE"
 }
-```
 - (OPTIONAL) PM2 is a process manager for Node.js applications and can be used to easily manage your bot's lifecycle. Install PM2 via npm:
 
   ```bash
   sudo npm install pm2 -g
-```
+
 - Start the bot using PM2 to ensure it runs in the background:
 
   ```bash
   pm2 start logbot.js --name "Mechbot-Lobot"
-```
+
 - To automate the startup of PM2 and your bot on system reboot:
   ```bash
   pm2 startup
   pm2 save
-```
+
 ## To-Dos
 -Optimize Performance: Enhance the efficiency and responsiveness of the bot.
 -Code Cleanup: Identify and remove obsolete or redundant code segments.
