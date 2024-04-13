@@ -109,7 +109,7 @@ Purpose: Unsubscribes the user from notifications for messages from a specified 
 - **Error Handling**: Clearly inform users of common errors, such as entering an invalid SteamID or a tag that doesn't exist.
 
 By providing detailed usage instructions for each command, users can interact with Mechbot-Lobot more effectively and with less confusion, enhancing their overall experience. <br>
-!help command coming soon
+`!help command coming soon`
 
 ## To-Dos
 - Move Discord UserID permissions into a .json file.
