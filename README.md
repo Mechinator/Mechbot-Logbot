@@ -77,6 +77,12 @@ Purpose: Removes a previously assigned tag from a SteamID32. <br>
     !unmark [SteamID32] [tag]
     ```
 
+3. !nick [SteamID32] [nickname]
+Purpose: Assigns a custom nickname to a SteamID32, which will be used in place of their original username in bot communications. <br>
+**Usage**:
+    ```bash
+    !nick [SteamID32] [nickname]
+    ```
 ## To-Dos
 - Move Discord UserID permissions into a .json file.
 - Optimize Performance: Enhance the efficiency and responsiveness of the bot.
