@@ -87,11 +87,19 @@ Purpose: Toggles the mute status of a SteamID32, preventing or allowing their me
    !mute [SteamID32]
    ```
 
-5. !notif [SteamID32] (CAN BE USED BY ANYONE) <br>
+5. !notif [SteamID32] <br>
 Purpose: Subscribes the user to notifications for messages from a specified SteamID32. <br>
 **Usage**:
    ```bash
    !notif [SteamID32]
+   ```
+   Note: This command can be used by all discord users.
+
+6. !unnotif [SteamID32] <br>
+Purpose: Unsubscribes the user from notifications for messages from a specified SteamID32. <br>
+**Usage**:
+   ```bash
+   !unnotif [SteamID32]
    ```
    Note: This command can be used by all discord users.
 
