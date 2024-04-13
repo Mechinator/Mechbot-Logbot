@@ -1,6 +1,6 @@
 # Mechbot-Logbot
 
-Mechbot-Lobot is a Discord bot designed to manage and monitor chat interactions within gaming communities, specifically tailored for Steam-based game servers. It features robust chat management tools, including spam control, user notifications, and message tracking, all designed to enhance the server management experience.
+Mechbot-Lobot is a Discord bot designed to manage and monitor chat interactions within your Catbots. It features robust chat log management tools, including spam control, user notifications, and message tracking, all designed to enhance the server management experience.
 
 ## Features
 
