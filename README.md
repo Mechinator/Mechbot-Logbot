@@ -53,8 +53,8 @@ Mechbot-Lobot is a Discord bot designed to manage and monitor chat interactions 
   pm2 save
 
 ## To-Dos
--Optimize Performance: Enhance the efficiency and responsiveness of the bot.
--Code Cleanup: Identify and remove obsolete or redundant code segments.
--Bug Fixes: Regularly update the bot to fix bugs and improve functionality.
--Feature Expansion: Continuously add new features based on community feedback.
--Store Usernames: Implement functionality to fetch and store actual usernames from Steam for display purposes.
+- Optimize Performance: Enhance the efficiency and responsiveness of the bot.
+- Code Cleanup: Identify and remove obsolete or redundant code segments.
+- Bug Fixes: Regularly update the bot to fix bugs and improve functionality.
+- Feature Expansion: Continuously add new features based on community feedback.
+- Store Usernames: Implement functionality to fetch and store actual usernames from Steam for display purposes.
