@@ -64,9 +64,9 @@ Purpose: Assigns a predefined tag to a specific SteamID32 to categorize users ba
    ```bash
    !mark [SteamID32] [tag]
   **Example**:
-     ```bash
+  ```bash
      !mark 1234567890 Cheater
-     ```
+   ```
 ## To-Dos
 - Move Discord UserID permissions into a .json file.
 - Optimize Performance: Enhance the efficiency and responsiveness of the bot.
