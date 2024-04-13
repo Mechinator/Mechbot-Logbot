@@ -103,6 +103,15 @@ Purpose: Unsubscribes the user from notifications for messages from a specified 
    ```
    Note: This command can be used by all discord users.
 
+### General Notes
+
+- **Permissions**: Some commands might require the user to have specific roles or permissions. Ensure you communicate these requirements in your command descriptions or bot help text.
+- **Error Handling**: Clearly inform users of common errors, such as entering an invalid SteamID or a tag that doesn't exist.
+- **Feedback**: Always provide feedback to the user after executing a command, whether it was successful or if there was an error.
+
+By providing detailed usage instructions for each command, users can interact with Mechbot-Lobot more effectively and with less confusion, enhancing their overall experience.
+
+
 ## To-Dos
 - Move Discord UserID permissions into a .json file.
 - Optimize Performance: Enhance the efficiency and responsiveness of the bot.
