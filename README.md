@@ -1,6 +1,6 @@
 # Mechbot-Logbot
 
-Mechbot-Lobot is a Discord bot designed to manage and monitor chat interactions within your Catbots. It features robust chat log management tools, including spam control, user notifications, and message tracking, all designed to enhance the server management experience.
+Mechbot-Logbot is a Discord bot designed to manage and monitor chat interactions within your Catbots. It features robust chat log management tools, including spam control, user notifications, and message tracking, all designed to enhance the server management experience.
 
 ## Features
 
@@ -50,14 +50,14 @@ Mechbot-Lobot is a Discord bot designed to manage and monitor chat interactions 
 - Start the bot using PM2 to ensure it runs in the background:
 
   ```bash
-  pm2 start logbot.js --name "Mechbot-Lobot"
+  pm2 start logbot.js --name "Mechbot-Logbot"
 
 - To automate the startup of PM2 and your bot on system reboot:
   ```bash
   pm2 startup
   pm2 save
   
-## Usage Documentation for Mechbot-Lobot Commands
+## Usage Documentation for Mechbot-Logbot Commands
 1. !mark [SteamID32] [tag] <br>
 Purpose: Assigns a predefined tag to a specific SteamID32 to categorize users based on behavior or characteristics.
 **Usage**:
@@ -108,7 +108,7 @@ Purpose: Unsubscribes the user from notifications for messages from a specified 
 - **Permissions**: Some commands might require the user to have permissions. Ensure you communicate these requirements in your command descriptions or bot help text.
 - **Error Handling**: Clearly inform users of common errors, such as entering an invalid SteamID or a tag that doesn't exist.
 
-By providing detailed usage instructions for each command, users can interact with Mechbot-Lobot more effectively and with less confusion, enhancing their overall experience. <br>
+By providing detailed usage instructions for each command, users can interact with Mechbot-Logbot more effectively and with less confusion, enhancing their overall experience. <br>
 `!help command coming soon`
 
 ## To-Dos
