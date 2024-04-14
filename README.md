@@ -114,7 +114,7 @@ By providing detailed usage instructions for each command, users can interact wi
 ## To-Dos
 - Move Discord UserID permissions into a .json file.
 - Add !help
-- Add !permission mute/mark add/remove (Discord UserID)
+- Add !permission mute/mark/nick/admin add/remove (Discord UserID)
 - Auto keyword pinning
 - Relay filtering
 - Figure out how to log killfeed on Deltatronics request 😭
