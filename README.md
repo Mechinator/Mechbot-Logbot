@@ -112,9 +112,9 @@ By providing detailed usage instructions for each command, users can interact wi
 `!help command coming soon`
 
 ## To-Dos
-- Move Discord UserID permissions into a .json file.
+- Move Discord UserID permissions into a .json file. (Completed on private version)
 - Add !help
-- Add !permission mute/mark/nick/admin add/remove (Discord UserID)
+- Add !permission mute/mark/nick/admin add/remove (Discord UserID) (Completed on private version)
 - Auto keyword pinning
 - Relay filtering
 - Figure out how to log killfeed on Deltatronics request 😭
