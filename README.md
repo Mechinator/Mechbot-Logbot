@@ -114,6 +114,7 @@ By providing detailed usage instructions for each command, users can interact wi
 ## To-Dos
 - Move Discord UserID permissions into a .json file.
 - Add !help
+- Figure out how to log killfeed on Deltatronics request 😭
 - Optimize Performance: Enhance the efficiency and responsiveness of the bot.
 - Code Cleanup: Identify and remove obsolete or redundant code segments.
 - Bug Fixes: Regularly update the bot to fix bugs and improve functionality.
