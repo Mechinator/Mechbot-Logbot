@@ -113,7 +113,8 @@ By providing detailed usage instructions for each command, users can interact wi
 
 ## To-Dos
 - Move Discord UserID permissions into a .json file. (Completed on private version)
-- Add !help
+- Add !help (Completed on private version)
+- Add !list (Completed on private version)
 - Add !permission mute/mark/nick/admin add/remove (Discord UserID) (Completed on private version)
 - Auto keyword pinning (Completed on private version)
 - Relay filtering (Completed on private version)
