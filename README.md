@@ -115,8 +115,8 @@ By providing detailed usage instructions for each command, users can interact wi
 - Move Discord UserID permissions into a .json file. (Completed on private version)
 - Add !help
 - Add !permission mute/mark/nick/admin add/remove (Discord UserID) (Completed on private version)
-- Auto keyword pinning
-- Relay filtering
+- Auto keyword pinning (Completed on private version)
+- Relay filtering (Completed on private version)
 - Figure out how to log killfeed on Deltatronics request 😭
 - Optimize Performance: Enhance the efficiency and responsiveness of the bot.
 - Code Cleanup: Identify and remove obsolete or redundant code segments.
