@@ -112,6 +112,7 @@ By providing detailed usage instructions for each command, users can interact wi
 `!help command coming soon`
 
 ## To-Dos
+- Update script to support discord.js v14 to add more features and other cool visuals
 - Move Discord UserID permissions into a .json file. (Completed on private version)
 - Add !help (Completed on private version)
 - Add !list (Completed on private version)
