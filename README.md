@@ -1,4 +1,5 @@
-# Mechbot-Logbot
+## Updates will slow down or pause do to TF2's 64bit update!!!
+## Mechbot-Logbot
 
 Mechbot-Logbot is a Discord bot designed to manage and monitor chat interactions within your Catbots. It features robust chat log management tools, including spam control, user notifications, and message tracking, all designed to enhance the server management experience.
 
