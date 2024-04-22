@@ -109,6 +109,26 @@ Purpose: Unsubscribes the user from notifications for messages from a specified 
    !unnotif [SteamID32]
    ```
    Note: This command can be used by all discord users.
+7. !pin [word] <br>
+Purpose: Auto pin messages with specific words in a pin channel. <br>
+**Usage**:
+   ```bash
+   !pin [word]
+   ```
+
+8. !filter [word] <br>
+Purpose: Replaces specific words of your choice with *****. <br>
+**Usage**:
+   ```bash
+   !filter [word]
+   ```
+   
+9. !permission [mute/mark/etc] [add/remove] [Discord UserID] <br>
+Purpose: Replaces specific words of your choice with *****. <br>
+**Usage**:
+   ```bash
+   !permission [mute/mark/nick/admin/filter/pin] [add/remove] [Discord UserID]
+   ```
 
 ### General Notes
 
@@ -120,12 +140,8 @@ By providing detailed usage instructions for each command, users can interact wi
 
 ## To-Dos
 - Update script to support discord.js v14 to add more features and other cool visuals
-- Move Discord UserID permissions into a .json file. (Completed on private version)
-- Add !help (Completed on private version)
-- Add !list (Completed on private version)
-- Add !permission mute/mark/nick/admin add/remove (Discord UserID) (Completed on private version)
-- Auto keyword pinning (Completed on private version)
-- Relay filtering (Completed on private version)
+- Add !help (Completed on private version) (bugged)
+- Add !list (Completed on private version) (bugged)
 - Figure out how to log killfeed on Deltatronics request 😭
 - Optimize Performance: Enhance the efficiency and responsiveness of the bot.
 - Code Cleanup: Identify and remove obsolete or redundant code segments.
