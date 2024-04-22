@@ -173,7 +173,7 @@ function saveAntiSpamData() {
 function saveNotificationSubscribers() {
   const subscribersToSave = {};
   for (const [steamID, userIDs] of Object.entries(notificationSubscribers)) {
-    subscribersToSave[steamID] = Array.from(userIDs); // Convert Set to Array for JSON serialization
+    subscribersToSave[steamID] = Array.from(userIDs); 
   }
   fs.writeFile(
     "./notificationSubscribers.json",
@@ -440,7 +440,7 @@ function postAntiSpamAction(steamID) {
   const guild = client.guilds.cache.first(); // Adjust according to your setup
   const channel = guild.channels.cache.find((ch) => ch.name === "antispam");
   if (channel) {
-    let username = nicknames[steamID] || "Unknown User"; // Adjust "Unknown User" based on how you handle missing usernames
+    let username = nicknames[steamID] || "Unknown User"; // Adjust "Unknown User" based on how you want to handle missing usernames
     let tagsDisplay = generateTagsDisplay(steamID);
     let message = `User [U:1:${steamID}] also known as (${username}) with tags ${tagsDisplay} was muted by anti-spam.`;
     channel.send(message);
@@ -655,10 +655,9 @@ client.on("message", (msg) => {
     const args = msg.content.split(" ").filter((arg) => arg.trim() !== ""); // Removing empty strings if any extra spaces
     console.log(args); // Continue to log to verify correct command structure
 
-    // Changed from args.length !== 5 to args.length !== 4
     if (args.length !== 4) {
       msg.channel.send(
-        "Usage: !permission [mute/mark/nick/admin] [add/remove] [Discord UserID]",
+        "Usage: !permission [mute/mark/nick/admin/pin/filter] [add/remove] [Discord UserID]",
       );
       return;
     }
@@ -676,7 +675,7 @@ client.on("message", (msg) => {
 
     if (!permissions.hasOwnProperty(category)) {
       msg.channel.send(
-        `Invalid category: ${category}. Choose from 'mute', 'mark', 'nick', or 'admin'.`,
+        `Invalid category: ${category}. Choose from 'mute', 'pin', 'filter', 'mark', 'nick', or 'admin'.`,
       );
       return;
     }
@@ -828,7 +827,7 @@ function sendNotifications(steamID, message, messageLink) {
         // Fetch the username and tags
         let username = nicknames[steamID] || "Unknown User"; // Use the nickname if available, otherwise fallback to "Unknown User"
         let tags = markedSteamIDs[steamID];
-        let tagsDisplay = generateTagsDisplay(steamID); // This function should handle creating a string from tags array
+        let tagsDisplay = generateTagsDisplay(steamID); 
 
         notificationSubscribers[steamID].forEach((userID) => {
           // Send the notification with username, tags, and message link
@@ -867,7 +866,6 @@ function checkAndPinMessage(formattedMessage, rawMessage, data) {
 
   if (containsPinnedWord) {
     client.guilds.cache.forEach((guild) => {
-      // First, find or create the 'mechinator-chats' channel
       let mechChannel = guild.channels.cache.find(
         (ch) => ch.name === "mechinator-chats" && ch.type === "text",
       );
